@@ -1,0 +1,49 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: linear-gradient(135deg, #6a3093 0%, #a044ff 30%, #5f2c82 60%, #49a09d 100%);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.hero {
+    max-width: 700px;
+    text-align: center;
+    padding: 48px 32px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.eyebrow {
+    margin: 0 0 12px;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 18px auto 0;
+    max-width: 520px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.95;
+}
