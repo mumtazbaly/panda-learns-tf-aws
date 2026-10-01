@@ -21,7 +21,7 @@ I’ll be adding examples, experiments, and small projects as I learn.
 ## 🚀 Getting Started
 
 ```bash
-git clone git@github.com:harmlesspanda/PandaLearnsTerraform.git
+git clone git@github.com:mumtazbaly/PandaLearnsTerraform.git
 cd PandaLearnsTerraform
 terraform init
 terraform plan
